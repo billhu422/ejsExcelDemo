@@ -6,8 +6,9 @@ ejsExcel.getExcelArr(exBuf).then(exlJson=>{
     console.log("************  read success:getExcelArr");
     let workBook=exlJson;
     let workSheets=workBook[0];
+    console.log(workSheets[0][0]);
     workSheets.forEach((item,index)=>{
-            console.log((index+1)+" row:"+item.join('    '));
+            console.log((index+1)+" row:"+item[1]);
     })
 }).catch(error=>{
     console.log("************** had error!");
