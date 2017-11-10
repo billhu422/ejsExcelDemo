@@ -1,0 +1,6 @@
+{
+  "lockfileVersion": 1,
+  "dependencies": {
+    "ejsexcel": "^3.4.9"
+  }
+}
